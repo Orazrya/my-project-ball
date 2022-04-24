@@ -1,0 +1,88 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+nav {
+  height: 100px;
+}
+
+nav .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .navbar .Search input {
+  border-radius: 20px;
+  border: 0px;
+  background: rgba(236, 236, 236, 0.842);
+  height: 30px;
+  width: 200px;
+}
+
+nav .navbar .link-bar a.link {
+  text-decoration: none;
+  color: black;
+  padding-left: 30px;
+}
+
+nav .navbar .link-bar > a:hover {
+  color: white;
+}
+
+.menu .Button button {
+  width: 300px;
+  height: 70px;
+  border-radius: 20px;
+  background-color: rgba(236, 236, 236, 0.842);
+  color: black;
+  border: 0px;
+  font-size: 25px;
+  margin-top: 70px;
+  background: #c5c5c5;
+}
+
+.menu .Button button:hover {
+  background-color: black;
+}
+
+header {
+  background-image: url(./assets/pexels-oleg-magni-1040482.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+header .menu {
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 500px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+header p {
+  font-size: 30px;
+  width: 500px;
+}
+
+main {
+  background-color: rgba(228, 228, 228, 0.972);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,65 @@
+@import "./_colors&fonts";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+nav {
+  // border: 1px solid black;
+  height: 100px;
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    .Search {
+      input {
+        border-radius: 20px;
+        border: 0px;
+        background: $greyText;
+        height: 30px;
+        width: 200px;
+      }
+    }
+    .link-bar {
+      a.link {
+        @include links();
+        padding-left: 30px;
+      }
+    }
+    .link-bar > a:hover {
+      color: white;
+    }
+  }
+}
+.menu {
+  .Button {
+    button{
+      @include button();
+      background: rgb(197, 197, 197);
+    }
+    button:hover {
+      background-color: black;
+    }
+  }
+}
+// end of navbar
+
+header {
+  background-image: url(./assets/pexels-oleg-magni-1040482.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  .menu {
+    font-size: 30px;
+    @include flex();
+  }
+  p {
+    font-size: 30px;
+    width: 500px;
+  }
+
+}
+// end of project
